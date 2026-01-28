@@ -1,0 +1,33 @@
+{
+  "name": "pepetka-plugins",
+  "owner": {
+    "name": "pepetka",
+    "email": "vlad.kznetsov@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by pepetka",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "kit",
+      "source": "./",
+      "description": "Comprehensive toolkit for code quality, security, and automation",
+      "version": "1.0.0",
+      "author": {
+        "name": "pepetka",
+        "email": "vlad.kznetsov@gmail.com"
+      },
+      "repository": "https://github.com/pepetka/dev-kit",
+      "license": "MIT",
+      "keywords": [
+        "code-review",
+        "security",
+        "testing",
+        "refactoring",
+        "changelog",
+        "architecture"
+      ]
+    }
+  ]
+}
