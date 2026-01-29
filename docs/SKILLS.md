@@ -133,6 +133,8 @@ Review uncommitted changes for code quality and best practices.
 - Positive patterns observed
 - Actionable recommendations
 
+**Integration:** Automatically activates the `code-reviewer` agent when invoked.
+
 ---
 
 ### `/security-review` - Security Audit

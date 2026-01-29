@@ -146,6 +146,35 @@ color: red|blue|green|amber|purple|gray
 
 ---
 
+### Code Reviewer
+
+**Description:** Expert in code quality review for uncommitted changes.
+
+**When activated:**
+- Code review tasks for uncommitted changes
+- Quality review requests
+- When `/code-review` skill is invoked
+
+**Specialization:**
+- Code smells and maintainability issues
+- Best practices and error handling
+- Performance optimizations
+- Naming conventions
+
+**Tools:**
+- Read, Grep, Glob, Bash (for git operations)
+- No write access (read-only agent)
+
+**Skills:**
+- `code-review`
+
+**Example tasks:**
+- "Review my current changes for quality issues"
+- "Check this file for best practices"
+- "Run a code review on src/services/"
+
+---
+
 ## How Agents Work
 
 ### Automatic Activation
